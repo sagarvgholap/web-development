@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-list li:hover{
+    font-weight: bolder;
+}
+
+.btn button {
+    background: transparent;
+    border:2px solid #07a0f3;
+    color: #07a0f3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    font-weight: bolder;
+}
+
+
+.hero, .hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right, .left{
+    margin-left: 5%;
+}
+
+.left h1{
+    width: 550px;
+    font-size: 55px;
+}
+
+.left article{
+    font-size: 17px;
+    width: 530px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 3.5%;
+}
+
+.left button{
+    background: linear-gradient(45deg,#08b1f6, #0567eb );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0px 0px 7px #08b1f6;
+    margin-top: 3.5%;
+}
+
+.right img{
+    width:500px;
+}
+
+.left img{
+    width: 460px;
+}
+
+.right h1{
+    width: 550px;
+    font-size: 55px;
+}
+
+.right article{
+    font-size: 17px;
+    width: 530px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 3.5%;
+}
+
+.right button{
+    background: linear-gradient(45deg,#08b1f6, #0567eb );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0px 0px 7px #08b1f6;
+    margin-top: 3.5%;
+}
+
+.read{
+    padding: 10px 30px !important;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.services .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content div article{
+    width: 580px;
+    font-weight: 300;
+    margin-left: 15%;
+}
+
+.content div h1{
+    font-size: 35px;
+    width: 350px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.card{
+    width: 300px;
+}
+
+.card img{
+    padding: 5%;
+}
+
+.card p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.card h2{
+    font-size: 20px;
+    padding: 0 0 3% 0;
+}
+
+.unique{
+    padding: 3% !important;
+}
+
+.price-plans{
+    height: 150vh;
+    background: linear-gradient(to bottom right,#09bdf8, #045fe9 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price-plans .headline{
+    font-size: 40px;
+    color: #fff;
+}
+
+.plans{
+    display: flex;
+    margin-top: 5%;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 5%;
+    height: 100vh;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.plan .facility ul li{
+    list-style-type: none;
+    padding: 15px 0;
+    
+}
+
+.plan .plan-title{
+    margin-right: 30%;
+}
+
+.two{
+    margin-right: 0% !important;
+}
+
+.one{
+    color: #fff;
+    background-color: #4a4949;
+    padding: 10%;
+    width: 80%;
+    margin-left: 30%;
+    border-radius: 10px;
+    margin-top: -10%;
+}
+
+
+
+.plan .plan-title article{
+    color: #808080;
+    font-size: 12px;
+    margin-top: 20%;
+}
+
+.one article{
+    margin-top: 10% !important;
+}
+
+.plan .facility ul li::before{
+    content: "\2713";
+    height: 17px;
+    width: 17px;
+    border: 2px solid #058b05;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #058b05;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.pricing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing h2{
+    color: #808080;
+}
+
+.pricing span{
+    color: #000;
+}
+
+.pricing p{
+    color: #808080;
+    font-size: 14px;
+    margin: 10% 0 20% 0;
+}
+
+.pricing button{
+    background: transparent;
+    border:2px solid #07a0f3;
+    color: #07a0f3;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.Testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.Testimonials .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h2{
+    font-size: 35px;
+    margin: 0 0 2% 0;
+}
+
+.title article{
+    font-weight: 300;
+    width: 720px;
+    text-align: center;
+    margin: 0 0 8% 0;
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin-right: 10%;
+}
+
+
+.review{
+    box-shadow: 0px 5px 20px grey;
+    border-radius: 10px;
+    width: 470px;
+    padding: 5%;  
+    line-height: 1.6;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.profile+div{
+    margin-left: 5%;
+}
+
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background: url('./images/footer-bg.svg');
+    padding: 10%;
+    background-size: cover;
+}
+
+.register div button{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 8px; 
+}
+
+.register div h2{
+    font-size: 49px;
+}
+
+.register .content{
+    width: 470px;
+}
+
+.register div article{
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.footer-logo img{
+    width: 100px;
+    padding-bottom: 20%;
+    margin-top: -20%;
+}
+
+.footer-logo{
+    width: 270px;
+    font-weight: 300;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.Overview{
+    margin-top: -3%;
+}
+
+.Social-Media{
+    margin-top: -9%;
+    text-align: center;
+}
+
+.Social-Media img{
+    width: 30px;
+    margin-top:10%;
+}
