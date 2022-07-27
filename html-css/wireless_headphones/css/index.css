@@ -1,0 +1,237 @@
+body {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 40px 60px;
+    height: 80vh;
+
+    /* this is for child elements ==>
+    .nav-bar
+    .intro-section
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+}
+
+.nav-bar {
+    /* this is for child elements ==>
+    logo
+    .nav-items
+    */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 15vh; */
+
+    /*  This is for parent */
+    /* flex: 0.5; */
+}
+
+.logo {
+    /* display: flex; */
+
+    /*  This is for parent */
+    flex: 0.5;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+
+    /*  This is for parent */
+    flex: 3;
+}
+
+.nav-item {
+    font-size: 25px;
+    padding: 0 25px;
+    cursor: pointer;
+    margin: 0;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* padding: 5px 50px; */
+}
+
+.nav-item:hover {
+    color: #fe5e35;
+}
+
+.actions {
+    /* display: flex; */
+    width: 300px;
+
+    /*  This is for parent */
+    flex: 0.5;
+}
+
+
+.intro-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.left-section h3 {
+    font-size: 40px;
+    margin: 60px 0px 10px 0px;
+}
+
+.left-section h3 img {
+    width: 50px;
+}
+
+.left-section h1 {
+    font-size: 65px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.left-section p {
+    font-size: 15px;
+    color: #d9d0d0;
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+}
+
+.headphone-div {
+    position: relative;
+}
+
+.headphone-img {
+    width: 450px;
+    position: absolute;
+    z-index: -1;
+    left: 100px;
+}
+
+.discount {
+    position: absolute;
+    top: 300px;
+    width: 150px;
+    left: 60px;
+}
+
+.discount-content {
+    position: absolute;
+    color: #fff;
+    top: 320px;
+    /* width: 150px; */
+    left: 90px;
+}
+
+.discount-content h4 {
+    font-size: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.discount-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 0;
+    text-align: center;
+}
+
+.sub-headline img {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    background-color: #fe5e35;
+}
+
+.sub-headlines {
+    padding: 10px 30px;
+}
+
+.sub-headline {
+    padding: 10px 30px;
+    margin: 0;
+    position: relative;
+}
+
+.sub-headline span {
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    /* vertical-align: super; */
+    /* margin-top: 20px; */
+    position: absolute;
+}
+
+.action-btn {
+    padding: 10px 15px;
+    background-color: #fe5e35;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.dots {
+    position: absolute;
+    top: 450px;
+    left: 240px;
+    display: flex;
+}
+
+.dot {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.yellow-dot {
+    /* width: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px; */
+    background-color: #d2fe35;
+}
+
+.tomato-dot {
+    /* width: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px; */
+    background-color: #fe6e35;
+}
+
+.black-dot {
+    /* width: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px; */
+    background-color: #000;
+}
+
+.right-section .action-btn {
+    padding: 10px 35px;
+    background-color: #fe5e35;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    top: 480px;
+    left: 240px;
+}
