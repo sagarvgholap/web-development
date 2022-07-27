@@ -1,0 +1,131 @@
+body{
+    height : 90vh;
+    margin : 0 0;
+    overflow: hidden;
+
+}
+
+/* .container{
+    margin: 20px 50px;
+} */
+
+.navbar{
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex: 0.5;
+    /* width: 50px; */
+    align-items: center;
+
+}
+
+.logo img{
+    height: 50px;
+    padding: 0 100px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.list-item{
+    align-items: center;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.line{
+    border-right: 1px solid #fff;
+    /* font-size: 20px; */
+    /* position: relative; */
+    height: 40px;
+}
+
+
+.grow-list{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    background: url(./assets/bg.png);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* margin-top: -20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-small{
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #a12291;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-large{
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #a12291;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 70px;
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-description{
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: center;
+}
