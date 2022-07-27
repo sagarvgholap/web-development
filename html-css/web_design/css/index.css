@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+}
+
+.nav-items{
+    color: #1f2873;
+}
+
+.left-section{
+    color: #1f2873;
+}
+
+.learn-more-btn{
+    background: linear-gradient(
+        50deg,
+        #965cf2, 
+        #ff8adc);
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px 15px;
+    border: none;
+    z-index: 2;
+}
+
+.signin-btn{
+    background: linear-gradient(
+        50deg,
+        #965cf2, 
+        #ff8adc);
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px 15px;
+    border: none;
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+nav .nav-items{
+    display: flex;
+    font-size: 1.3em;
+}
+
+nav .nav-items .nav-item{
+    padding: 5%;
+    z-index: 2;
+}
+
+nav .nav-items {
+    margin-right: 10%;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav .signin-btn{
+    font-size: 1.1em;
+}
+
+.left-section{
+    position: absolute;
+    right: 50%;
+    left: 11%;
+    top: 28%;
+}
+
+.left-section h1{
+    font-size: 60px;
+}
+
+.left-section h4{
+    width: 320px;
+    text-align: left;
+    line-height: 1.8;
+    margin-top: 6%;
+}
+
+.learn-more-btn{
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+.vector-dot + img {
+    height: 500px;
+    background: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -3%;
+    top: 0%;
+    padding: 8% 16% 7% 0%;
+} 
+
+.vector-dot{
+    top: 72%;
+    right: 45%;
+    position: absolute;
+}
+
+.vector-img{
+    position: absolute;
+    top: 70%;
+    right: 44%;
+}
+
+
+.main-div nav img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+button:hover{
+    animation-name: hoverEffect;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+/* ::selection{
+    background-color: rgb(255, 138, 220);
+} */
+
+
+
