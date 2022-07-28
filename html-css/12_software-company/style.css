@@ -34,6 +34,7 @@ nav div img{
 .list li{
     padding: 10px 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 nav .list div button{
