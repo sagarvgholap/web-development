@@ -28,7 +28,6 @@ nav .list ul{
     list-style-type: none;
 }
 
-
 nav .list ul li{
     padding: 10px 20px;
     font-size: 1em;
@@ -45,7 +44,6 @@ nav .list{
     padding-bottom: 2%;
     border-bottom: 2px solid #fff;
 }
-
 
 .list .contact{
     display: flex;
