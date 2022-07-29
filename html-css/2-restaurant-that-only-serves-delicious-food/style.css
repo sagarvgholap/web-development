@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgb(63 0 255 / 60%), rgb(51 0 255 / 60%)), url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-image: linear-gradient(#3c2e4cc7, #3c2e4c8f), url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
